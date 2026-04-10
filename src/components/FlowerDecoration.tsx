@@ -1,11 +1,11 @@
 export default function FlowerDecoration() {
   return (
-    <div className="w-full h-full flex items-center justify-center relative">
+    <div className="w-full h-full flex items-center justify-center relative z-10">
       <svg
         viewBox="0 0 300 350"
-        className="w-full h-full"
+        className="w-[220px] h-[260px] mx-auto"
         style={{
-          filter: 'drop-shadow(0 0 20px rgba(255,255,255,0.25)) drop-shadow(0 0 40px rgba(255,255,255,0.1))',
+          filter: 'drop-shadow(0 0 40px rgba(255,255,255,0.6)) drop-shadow(0 0 80px rgba(255,255,255,0.25))',
         }}
       >
         <defs>
@@ -58,7 +58,7 @@ export default function FlowerDecoration() {
                 rx="14"
                 ry="28"
                 fill="url(#petalGrad)"
-                opacity="0.6"
+                opacity="0.9"
               />
             </g>
           ))}
