@@ -4,39 +4,92 @@ export default function FlowerDecoration() {
       style={{
         width: "100%",
         height: "100%",
+        position: "relative",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        position: "relative",
       }}
     >
-      {/* Background glow */}
+      {/* Glow background */}
       <div
         style={{
           position: "absolute",
-          width: "250px",
-          height: "250px",
-          background: "rgba(255,255,255,0.08)",
+          width: "260px",
+          height: "260px",
+          background: "rgba(255,255,255,0.06)",
           borderRadius: "50%",
-          filter: "blur(60px)",
+          filter: "blur(70px)",
         }}
       />
 
-      {/* Text */}
-      <h1
-        style={{
+      {/* Letters */}
+      <div style={{ position: "relative", width: "100%", height: "100%" }}>
+
+        {/* E */}
+        <span style={{
+          position: "absolute",
+          top: "20%",
+          left: "15%",
+          color: "white",
+          fontSize: "42px",
+          transform: "rotate(-12deg)",
+          opacity: 0.8
+        }}>
+          E
+        </span>
+
+        {/* C */}
+        <span style={{
+          position: "absolute",
+          top: "35%",
+          left: "35%",
           color: "white",
           fontSize: "48px",
-          letterSpacing: "0.4em",
-          fontFamily: "serif",
-          textAlign: "center",
-          zIndex: 2,
-          textShadow:
-            "0 0 20px rgba(255,255,255,0.25), 0 0 60px rgba(255,255,255,0.1)",
-        }}
-      >
-        E C H O™
-      </h1>
+          transform: "rotate(8deg)",
+          opacity: 0.9
+        }}>
+          C
+        </span>
+
+        {/* H */}
+        <span style={{
+          position: "absolute",
+          top: "55%",
+          left: "55%",
+          color: "white",
+          fontSize: "46px",
+          transform: "rotate(-6deg)",
+          opacity: 0.85
+        }}>
+          H
+        </span>
+
+        {/* O */}
+        <span style={{
+          position: "absolute",
+          top: "30%",
+          left: "60%",
+          color: "white",
+          fontSize: "52px",
+          transform: "rotate(10deg)",
+          opacity: 1
+        }}>
+          O
+        </span>
+
+        {/* TM */}
+        <span style={{
+          position: "absolute",
+          top: "28%",
+          left: "75%",
+          color: "white",
+          fontSize: "16px",
+          opacity: 0.7
+        }}>
+          ™
+        </span>
+
+      </div>
     </div>
   );
 }
