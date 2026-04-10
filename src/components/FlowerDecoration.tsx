@@ -1,20 +1,42 @@
 export default function FlowerDecoration() {
   return (
-    <div className="w-full h-full flex items-center justify-center relative overflow-hidden">
-
+    <div
+      style={{
+        width: "100%",
+        height: "100%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        position: "relative",
+      }}
+    >
       {/* Background glow */}
-      <div className="absolute w-80 h-80 bg-white/5 rounded-full blur-3xl" />
-
-      {/* Main text */}
-      <h1
-        className="text-white text-5xl md:text-6xl font-serif tracking-[0.4em] select-none"
+      <div
         style={{
-          textShadow: "0 0 20px rgba(255,255,255,0.25), 0 0 60px rgba(255,255,255,0.1)",
+          position: "absolute",
+          width: "250px",
+          height: "250px",
+          background: "rgba(255,255,255,0.08)",
+          borderRadius: "50%",
+          filter: "blur(60px)",
+        }}
+      />
+
+      {/* Text */}
+      <h1
+        style={{
+          color: "white",
+          fontSize: "48px",
+          letterSpacing: "0.4em",
+          fontFamily: "serif",
+          textAlign: "center",
+          zIndex: 2,
+          textShadow:
+            "0 0 20px rgba(255,255,255,0.25), 0 0 60px rgba(255,255,255,0.1)",
         }}
       >
         E C H O™
       </h1>
-
     </div>
   );
 }
