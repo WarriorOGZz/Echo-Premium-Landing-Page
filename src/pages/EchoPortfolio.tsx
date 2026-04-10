@@ -14,13 +14,13 @@ const skills = [
   { label: "PLAYBACK", percent: 100, description: "Flawless audio playback with zero-lag streaming across all sources" },
   { label: "STABILITY", percent: 99.7, description: "Multi-node fallback with near-zero downtime and self-healing nodes" },
   { label: "UI", percent: 98, description: "Clean, intuitive slash commands and embed interfaces for all users" },
-  { label: "AI", percent: 89.2, description: "Smart playlist generation and auto-queue powered by machine learning" },
+  { label: "CONTROL", percent: 89.2, description: "Control over anything including music, volume, filters, 9+ modules more" },
 ];
 
 const modules = [
-  { title: "Core Music System", sub: "since 2023", description: "Lavalink-powered audio engine with multi-source streaming, ultra-low latency, and automatic failover." },
-  { title: "AI Playlist Engine", sub: "since 2024", description: "Machine learning-driven playlist generation based on mood, genre, and listening history patterns." },
-  { title: "Smart Queue System", sub: "since 2025", description: "Intelligent queue management with priority tracks, shuffle algorithms, and cross-server sync." },
+  { title: "Core Music System", sub: "Created", description: "Lavalink-powered audio engine with multi-source streaming, ultra-low latency, and automatic failover." },
+  { title: "AI Autoplay Engine", sub: "By", description: "Machine learning-driven autoplay generation based on mood, genre, and listening history patterns." },
+  { title: "Smart Queue System", sub: "WarriorOG", description: "Intelligent queue management with priority tracks, shuffle algorithms, and cross-server sync." },
 ];
 
 const infoRows = [
@@ -238,7 +238,7 @@ export default function EchoPortfolio() {
               >
                 Echo™{" "}
                 <span style={{ fontFamily: "Inter, sans-serif", fontStyle: "normal", fontWeight: 300, fontSize: "0.9rem", color: "rgba(255,255,255,0.55)", letterSpacing: "0.04em" }}>
-                  (에코) – Music Bot
+                  (エコー) – Music Bot
                 </span>
               </motion.h1>
               <motion.div
@@ -331,7 +331,7 @@ export default function EchoPortfolio() {
             <Card3D className="p-4 sm:p-5 flex flex-col" intensity={8} data-testid="card-system">
               <h2 className="font-serif text-xl sm:text-2xl italic text-white mb-4" style={{ letterSpacing: "-0.01em" }}>System</h2>
               <p className="leading-relaxed flex-1" style={{ color: "rgba(255,255,255,0.62)", fontSize: "12.5px", lineHeight: 1.8, textAlign: "justify" }}>
-                Echo™ is a high-performance Discord music bot built with a Lavalink-based streaming system, supporting multi-node fallback, ultra-low latency playback, and intelligent queue handling. It integrates AI-based playlist generation and optimized audio delivery.
+                Echo™ is a high-performance Discord music bot built with a Lavalink-based streaming system, supporting multi-node fallback, ultra-low latency playback, and intelligent queue handling. It integrates AI-Based Autoplay Via Your Play history.
               </p>
 
               <div className="mt-5 pt-4" style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}>
@@ -358,7 +358,7 @@ export default function EchoPortfolio() {
 
               <div className="mt-5 pt-4 flex flex-col gap-2" style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}>
                 <motion.a
-                  href="https://discord.com/oauth2/authorize?client_id=1234567890&scope=bot+applications.commands&permissions=8"
+                  href="https://discord.com/oauth2/authorize?client_id=1455571643148533853"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 py-2.5 rounded-lg text-xs font-medium text-black relative overflow-hidden"
@@ -373,7 +373,7 @@ export default function EchoPortfolio() {
                   Add Echo™ to Server
                 </motion.a>
                 <motion.a
-                  href="https://discord.gg/echo-support"
+                  href="https://discord.gg/GQ5X3qUhWK"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 py-2.5 rounded-lg text-xs font-medium card-glass"
@@ -407,7 +407,7 @@ export default function EchoPortfolio() {
           className="text-center mt-5"
           style={{ color: "rgba(255,255,255,0.18)", fontSize: "10px", letterSpacing: "0.14em" }}
         >
-          ECHO™ © 2025 · ALL RIGHTS RESERVED · SYSTEM ID 89
+          ECHO™ © 2025 · ALL RIGHTS RESERVED · BY WARRIOROG
         </motion.div>
       </motion.div>
     </div>
