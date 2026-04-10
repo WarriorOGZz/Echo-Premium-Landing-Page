@@ -173,7 +173,7 @@ export default function EchoPortfolio() {
           className="flex flex-wrap items-center justify-end gap-2 mb-5"
         >
           <motion.a
-            href="https://discord.com/oauth2/authorize?client_id=1234567890&scope=bot+applications.commands&permissions=8"
+            href="https://discord.com/oauth2/authorize?client_id=1455571643148533853"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2.5 rounded-lg font-medium text-sm text-black relative overflow-hidden"
@@ -188,7 +188,7 @@ export default function EchoPortfolio() {
             Add to Server
           </motion.a>
           <motion.a
-            href="https://discord.gg/echo-support"
+            href="https://discord.gg/GQ5X3qUhWK"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2.5 rounded-lg font-medium text-sm text-white card-glass"
