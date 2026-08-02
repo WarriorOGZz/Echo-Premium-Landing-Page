@@ -2,41 +2,10 @@
 
 > **Premium Landing Page for the Echo™ Music brand**
 
-> Replace this template with your project information.
-
----
-
-# Table of Contents
-
-- About
-- Live Demo
-- Preview
-- Features
-- Design Philosophy
-- Tech Stack
-- Folder Structure
-- Installation
-- Local Development
-- Deployment
-- Performance
-- Screenshots
-- Components
-- Roadmap
-- FAQ
-- Contributing
-- License
-- Author
-
----
-
-# About
-
-Describe your landing page here.
-
 # Live Demo
 
-- Website:
-- Repository:
+- Website: https://echomusic.warriorog.space
+- Repository: https://github.com/WarriorOGZz/Echo-Premium-Landing-Page/
 
 # Preview
 
@@ -52,15 +21,36 @@ Describe your landing page here.
 - Glassmorphism
 - Dark Theme
 
-# Design Philosophy
-
-Explain your design choices.
-
 # Tech Stack
 
-- HTML
-- CSS
-- JavaScript
+## Frontend
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS 4
+
+## UI & Design
+- Framer Motion
+- Lucide React
+- shadcn/ui
+- Glassmorphism Design
+- CSS Animations
+
+## Development
+- ESLint
+- npm
+- Git & GitHub
+
+## Deployment
+- Vercel
+
+## Fonts
+- Geist
+- Space Grotesk
+
+## Assets
+- SVG Icons
+- Optimized Images
 
 # Folder Structure
 
@@ -82,20 +72,10 @@ npm run dev
 
 Deploy to Vercel or your preferred platform.
 
-# Roadmap
-
-- [ ] Add dashboard
-- [ ] More animations
-- [ ] Better accessibility
-
-# FAQ
-
-Add common questions.
-
 # License
 
 MIT
 
 # Author
 
-WarriorOG
+WarriorOG (0kxs)
